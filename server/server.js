@@ -5,6 +5,7 @@ const { authMiddleware } = require('./utils/auth');
 const db = require('./config/connection');
 const { typeDefs, resolvers } = require('./schemas');
 const mongoose = require("mongoose");
+require('dotenv').config()
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -19,15 +20,6 @@ server.applyMiddleware({ app });
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/tippingtracker',
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-  }
-);
 
 // if we're in production, serve client/build as static assets
 if (process.env.NODE_ENV === 'production') {

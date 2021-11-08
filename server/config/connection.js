@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/teammatchup', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/tippingtracker', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
