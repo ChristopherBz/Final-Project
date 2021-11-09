@@ -33,9 +33,10 @@ Run 'npm install' to install dependencies
 Run 'Mongod' in the local terminal
 Run "npm start"
 
-## Technology
-
+## Technology  
+React  
 JavaScript  
+GraphQL  
 Node.JS  
 Express.JS  
 MongoDB  
@@ -45,6 +46,7 @@ Web Manifest
 Mongoose  
 Morgan  
 MongoDB Atlas (Cloud)  
+JWT authentication  
 
 ## License
 
