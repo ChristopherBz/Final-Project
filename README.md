@@ -46,6 +46,7 @@ Web Manifest
 Mongoose  
 Morgan  
 MongoDB Atlas (Cloud)  
+Heroku  
 JWT authentication  
 
 ## License
