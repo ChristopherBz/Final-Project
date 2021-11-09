@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# NRL Tipping Tracker
+![image](https://user-images.githubusercontent.com/81110745/140848980-d50c1999-9965-4ca0-8206-5d9cd50b1dce.png)
+Find the deployed application here: https://tippingtracker.herokuapp.com/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+The NRL Tipping Tracker is your social resource to understand what the fans are betting on. The Hive mind is a powerful resource so take advantage & place those long bets at the start of the season
 
-## Available Scripts
+## Table of Contents
+- [Demo](#Demo)
+- [Deployed](#Deployed)
+- [User Story](#User-Story)
+- [Installation](#installation)
+- [Technology](#technology)
+- [License](#license)
+- [Questions](#Contact-Information)  
 
-In the project directory, you can run:
+### Demo
+![Screenshot](https://github.com/ChristopherBz/Final-Project/blob/03729bf7a60964c05eafe77365f684c4b8e71f75/client/public/NRL%20Tipping%20Tracker.gif)
 
-### `npm start`
+### Deployed
+Find the deployed application here: https://tippingtracker.herokuapp.com/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### User-Story
+As a NRL fan, I want an online resource that gathers the collective speculation on matches so that I can make a more informed decision when placing a bet 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To clone the repo:
+```
+git clone https://github.com/ChristopherBz/Final-Project.git
+``` 
+Run 'npm install' to install dependencies  
+Run 'Mongod' in the local terminal
+Run "npm start"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technology
 
-### `npm run build`
+JavaScript  
+Node.JS  
+Express.JS  
+MongoDB  
+Dotenv  
+Service Worker  
+Web Manifest  
+Mongoose  
+Morgan  
+MongoDB Atlas (Cloud)  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This application is released under ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge").
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact-Information:
+    *GitHub Username: ChristopherBz
